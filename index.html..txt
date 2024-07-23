@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espacio Turístico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Portada -->
+    <header id="portada">
+        <div class="overlay"></div>
+        <div class="container">
+            <h1>Espacio Turístico</h1>
+            <p>El viaje de tu vida es con nosotros</p>
+            <nav>
+                <ul>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#galeria">Galería</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="#redes">Redes Sociales</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección de Servicios -->
+    <section id="servicios" class="container">
+        <h2>Servicios</h2>
+        <div class="servicio">
+            <h3>Aventura</h3>
+            <p>Trekking, escalada, expediciones.</p>
+        </div>
+        <div class="servicio">
+            <h3>Relax</h3>
+            <p>Cruceros, tours panorámicos, termas.</p>
+        </div>
+        <div class="servicio">
+            <h3>Cultura</h3>
+            <p>Visitas a museos, recorridos históricos, experiencias locales.</p>
+        </div>
+        <div class="servicio">
+            <h3>Pesca</h3>
+            <p>Excursiones de pesca en los ríos y lagos de Tierra del Fuego.</p>
+        </div>
+        <div class="servicio">
+            <h3>Personalizados</h3>
+            <p>Paquetes a medida según las necesidades del cliente.</p>
+        </div>
+    </section>
+
+    <!-- Galería de Fotos -->
+    <section id="galeria" class="container">
+        <h2>Galería</h2>
+        <div class="galeria-grid">
+            <!-- Aquí irán las fotos -->
+        </div>
+    </section>
+
+    <!-- Formulario de Contacto -->
+    <section id="contacto" class="container">
+        <h2>Contacto</h2>
+        <form>
+            <label for="nombre">Nombre y Apellido:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+
+            <label for="consulta">Consulta:</label>
+            <textarea id="consulta" name="consulta" required></textarea>
+
+            <label for="destino">Destino:</label>
+            <select id="destino" name="destino" required>
+                <option value="ushuaia">Ushuaia</option>
+                <!-- Agregar más destinos aquí -->
+            </select>
+
+            <label for="fecha">Fecha de viaje:</label>
+            <input type="date" id="fecha" name="fecha" required>
+
+            <label for="pasajeros">Número de pasajeros:</label>
+            <input type="number" id="pasajeros" name="pasajeros" required>
+
+            <label for="tipo-viaje">Tipo de viaje:</label>
+            <select id="tipo-viaje" name="tipo-viaje" required>
+                <option value="aventura">Aventura</option>
+                <option value="relax">Relax</option>
+                <option value="cultura">Cultura</option>
+                <!-- Agregar más opciones aquí -->
+            </select>
+
+            <label for="presupuesto">Presupuesto:</label>
+            <input type="text" id="presupuesto" name="presupuesto" required>
+
+            <label for="comentarios">Comentarios adicionales:</label>
+            <textarea id="comentarios" name="comentarios"></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Redes Sociales -->
+    <section id="redes" class="container">
+        <h2>Redes Sociales</h2>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/espacioturistico" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com/espacioturistico" target="_blank">Facebook</a>
+            <a href="https://www.x.com/espacioturistico" target="_blank">X</a>
+        </div>
+    </section>
+</body>
+</html>

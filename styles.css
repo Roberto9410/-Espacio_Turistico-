@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header#portada {
+    background: url('path/to/your/image.jpg') no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+    color: white;
+}
+
+header#portada .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+header#portada .container {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+header#portada h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header#portada p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#servicios .servicio {
+    margin-bottom: 20px;
+}
+
+#galeria .galeria-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 10px;
+}
+
+#contacto form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+#contacto form label {
+    font-weight: bold;
+}
+
+#contacto form input,
+#contacto form textarea,
+#contacto form select,
+#contacto form button {
+    padding: 10px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+#redes .social-icons {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+}
